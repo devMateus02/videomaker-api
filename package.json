@@ -1,12 +1,12 @@
 {
-    "name": "videomaker-api",
+  "name": "videomaker-api",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-  "dev": "nodemon api.js",
-  "start":"node api.js"
-},
-
+    "dev": "nodemon api.js",
+    "start": "node api.js",
+    "build": "echo \"No build needed\""
+  },
   "dependencies": {
     "cloudinary": "^2.7.0",
     "cors": "^2.8.5",
